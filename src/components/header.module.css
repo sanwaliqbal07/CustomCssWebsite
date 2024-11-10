@@ -1,0 +1,60 @@
+/* header.module.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(45deg, #ff66b2, #a066ff, #ffe066);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.logoImg:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ffe066;
+  text-decoration: underline;
+  transform: scale(1.1);
+}

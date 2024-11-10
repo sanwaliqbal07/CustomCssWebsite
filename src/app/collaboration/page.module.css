@@ -1,4 +1,4 @@
-/* page.module.css */
+/* collaboration.module.css */
 
 .container {
     padding: 20px;
@@ -23,33 +23,33 @@
     font-size: 1.1rem;
     color: #6a0dad;
     line-height: 1.6;
+    margin-bottom: 30px;
   }
   
-  .buttons {
-    margin: 20px 0;
+  .collaborators {
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
   }
   
-  .btn {
-    padding: 10px 20px;
+  .collaborator {
     background-color: #ff85c0;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
   }
   
-  .btn:hover {
-    background-color: #d6336c;
+  .collaborator:hover {
+    transform: scale(1.05);
   }
   
-  .highlight {
-    font-weight: bold;
-    color: #ba55d3;
+  .collaborator-img {
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
   
   .footer {
