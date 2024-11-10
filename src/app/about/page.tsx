@@ -1,5 +1,3 @@
-
-import Link from 'next/link';
 import styles from '@/app/about/page.module.css';
 
 const AboutPage = () => {

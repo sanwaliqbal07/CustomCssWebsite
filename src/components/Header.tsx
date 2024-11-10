@@ -1,5 +1,3 @@
-'use client';
-
 import styles from '@/components/header.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -10,12 +8,12 @@ const Header = () => {
       <div className={styles.logoContainer}>
         <Image
           src="/images/logo.png" // replace with your logo image path
-          alt="Pookie's Logo"
+          alt="Pookies Logo"
           className={styles.logoImg}
           width={50}
           height={50}
         />
-        <h1 className={styles.title}>Pookie's</h1>
+        <h1 className={styles.title}>Pookie&apos;s</h1>
       </div>
 
       <nav className={styles.nav}>
