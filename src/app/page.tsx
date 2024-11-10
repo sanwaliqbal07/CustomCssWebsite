@@ -9,7 +9,7 @@ const Home = () => {
       {/* Buttons Container */}
       <div className={styles.buttons}>
         <a href="about" className={styles.btn}>Learn More About Us</a>
-        <a href="contact.html" className={styles.btn}>Contact Us</a>
+        <a href="contact" className={styles.btn}>Contact Us</a>
       </div>
 
       <h2 className={styles.title}>Why Choose Pookie&apos;s?</h2>
