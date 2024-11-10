@@ -7,7 +7,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.logoContainer}>
         <Image
-          src="/images/logo.png" // replace with your logo image path
+          src="/4.jpg" // replace with your logo image path
           alt="Pookies Logo"
           className={styles.logoImg}
           width={50}
