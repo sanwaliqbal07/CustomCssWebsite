@@ -5,7 +5,7 @@ const CollaborationPage = () => {
   return (
     <main className={styles.container}>
       <h1 className={styles.title}>Collaboration</h1>
-      <p className={styles.text}>Some amazing people Pookie's collaborated with</p>
+      <p className={styles.text}>Some amazing people Pookie&apos;s collaborated with</p>
 
       <div className={styles.collaborators}>
         <div className={styles.collaborator}>
@@ -16,7 +16,7 @@ const CollaborationPage = () => {
             width={300}
             height={300}
           />
-          <p>Our Pookie's with Black Widow</p>
+          <p>Our Pookie&apos;s with Black Widow</p>
         </div>
 
         <div className={styles.collaborator}>
@@ -27,7 +27,7 @@ const CollaborationPage = () => {
             width={300}
             height={300}
           />
-          <p>Our Pookie's with Iron Man</p>
+          <p>Our Pookie&apos;s with Iron Man</p>
         </div>
 
         <div className={styles.collaborator}>
@@ -38,7 +38,7 @@ const CollaborationPage = () => {
             width={300}
             height={300}
           />
-          <p>Our Pookie's with Ben 10</p>
+          <p>Our Pookie&apos;s with Ben 10</p>
         </div>
 
         <div className={styles.collaborator}>
@@ -49,7 +49,7 @@ const CollaborationPage = () => {
             width={300}
             height={300}
           />
-          <p>Our Pookie's with Spider Man</p>
+          <p>Our Pookie&apos;s with Spider Man</p>
         </div>
       </div>
 

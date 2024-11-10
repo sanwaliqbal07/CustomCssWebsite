@@ -48,7 +48,7 @@ const ContactPage = () => {
       </ul>
 
       <footer className={styles.footer}>
-        <p>Thanks for reaching out! We can't wait to connect with you.</p>
+        <p>Thanks for reaching out! We can&apos;t wait to connect with you.</p>
       </footer>
     </main>
   );
